@@ -21,7 +21,7 @@ class InventoryC {
                     throw new OutOfRangeException();
                 }
                 if (numBoxes == 5) {
-                    throw new FiveException();
+                    throw new FiveException("5 Минут от дома твоего");
                 }
 
                 out.print("Итоговая стоимость равна ");
